@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -37,7 +38,7 @@ class Customer {
 public class flatMapUse {
 
     public static void main(String[] args) {
-        List<Customer> li = new ArrayList<>();
+        List<Customer> li = new ArrayList<Customer>();
 
         li.add(new Customer("Rmanti", Arrays.asList("91234658", "1245478")));
         li.add(new Customer("Sunny", Arrays.asList("124667895", "875165956")));

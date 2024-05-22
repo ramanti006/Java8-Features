@@ -23,6 +23,10 @@ ArrayList<Integer> li = new ArrayList<Integer>();
 
 		System.out.println("Limit eleement:::");
 		li.stream().limit(4).collect(Collectors.toList()).forEach(System.out::println);
+		
+		//use of skip() and limit() together to retrieve 3 elements
+		System.out.println("...................");
+		li.stream().skip(1).limit(3).forEach(System.out::println);
 
 	}
 
